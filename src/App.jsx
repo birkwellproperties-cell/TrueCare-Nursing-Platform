@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+﻿import { Navigate, Route, Routes } from "react-router-dom";
 
 import SiteLayout from "./components/SiteLayout";
 import AboutPage from "./pages/AboutPage";
@@ -29,3 +29,4 @@ export default function App() {
     </Routes>
   );
 }
+

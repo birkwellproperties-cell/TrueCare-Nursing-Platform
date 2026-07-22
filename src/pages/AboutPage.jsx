@@ -1,4 +1,4 @@
-import SectionHeading from "../components/SectionHeading";
+﻿import SectionHeading from "../components/SectionHeading";
 
 export default function AboutPage() {
   return (
@@ -32,3 +32,4 @@ export default function AboutPage() {
     </>
   );
 }
+

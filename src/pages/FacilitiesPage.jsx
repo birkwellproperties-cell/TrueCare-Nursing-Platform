@@ -1,4 +1,4 @@
-import ContactForm from "../components/ContactForm";
+﻿import ContactForm from "../components/ContactForm";
 import SectionHeading from "../components/SectionHeading";
 
 export default function FacilitiesPage() {
@@ -21,9 +21,9 @@ export default function FacilitiesPage() {
             />
             <div className="info-panel">
               <h3>Staffing options</h3>
-              <p>Per diem • Contract • Travel • Temporary • Direct hire</p>
+              <p>Per diem â€¢ Contract â€¢ Travel â€¢ Temporary â€¢ Direct hire</p>
               <h3>Common roles</h3>
-              <p>RN • LPN/LVN • CNA • CMA • Additional healthcare professionals</p>
+              <p>RN â€¢ LPN/LVN â€¢ CNA â€¢ CMA â€¢ Additional healthcare professionals</p>
             </div>
           </div>
           <ContactForm type="facility" />
@@ -32,3 +32,4 @@ export default function FacilitiesPage() {
     </>
   );
 }
+

@@ -1,4 +1,4 @@
-import { Menu, Phone, X } from "lucide-react";
+﻿import { Menu, Phone, X } from "lucide-react";
 import { useState } from "react";
 import { NavLink, Outlet } from "react-router-dom";
 
@@ -117,10 +117,11 @@ export default function SiteLayout() {
         </div>
 
         <div className="container footer__bottom">
-          <span>© {new Date().getFullYear()} {siteConfig.businessName}.</span>
+          <span>Â© {new Date().getFullYear()} {siteConfig.businessName}.</span>
           <span>Equal opportunity employer.</span>
         </div>
       </footer>
     </div>
   );
 }
+

@@ -1,4 +1,4 @@
-import { BadgeDollarSign, CalendarDays, ClipboardCheck, HeartHandshake } from "lucide-react";
+﻿import { BadgeDollarSign, CalendarDays, ClipboardCheck, HeartHandshake } from "lucide-react";
 import { Link } from "react-router-dom";
 
 import SectionHeading from "../components/SectionHeading";
@@ -43,3 +43,4 @@ export default function ProfessionalsPage() {
     </>
   );
 }
+

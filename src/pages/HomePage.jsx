@@ -1,4 +1,4 @@
-import {
+﻿import {
   ArrowRight,
   BadgeCheck,
   CalendarCheck,
@@ -194,7 +194,7 @@ export default function HomePage() {
         <div className="container cta-section__inner">
           <div>
             <span className="eyebrow eyebrow--light">Ready for the next step?</span>
-            <h2>Let’s strengthen care together.</h2>
+            <h2>Letâ€™s strengthen care together.</h2>
             <p>Choose the path that best matches what you need today.</p>
           </div>
           <div className="cta-section__actions">
@@ -206,3 +206,4 @@ export default function HomePage() {
     </>
   );
 }
+

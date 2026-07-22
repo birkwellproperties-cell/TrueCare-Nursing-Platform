@@ -1,4 +1,4 @@
-import { jobs as fallbackJobs } from "../data/jobs";
+﻿import { jobs as fallbackJobs } from "../data/jobs";
 import {
   isSupabaseConfigured,
   supabase,
@@ -158,7 +158,7 @@ function validateResume(file) {
     MAX_RESUME_BYTES
   ) {
     throw new Error(
-      "Résumé must be 10 MB or smaller.",
+      "RÃ©sumÃ© must be 10 MB or smaller.",
     );
   }
 
@@ -168,7 +168,7 @@ function validateResume(file) {
     )
   ) {
     throw new Error(
-      "Résumé must be a PDF, DOC, or DOCX file.",
+      "RÃ©sumÃ© must be a PDF, DOC, or DOCX file.",
     );
   }
 }
@@ -219,7 +219,7 @@ async function uploadResume(
   if (error) {
     throw normalizeError(
       error,
-      "Unable to upload résumé.",
+      "Unable to upload rÃ©sumÃ©.",
     );
   }
 
@@ -243,7 +243,7 @@ async function removeUploadedResume(
 
   if (error) {
     console.error(
-      "Unable to clean up uploaded résumé:",
+      "Unable to clean up uploaded rÃ©sumÃ©:",
       error,
     );
   }
@@ -313,6 +313,8 @@ export async function submitJobApplication({
           .toUpperCase(),
       professional_role:
         formData.professionalRole,
+      employment_preference:
+        formData.employmentPreference,
       license_number:
         formData.licenseNumber
           .trim(),
@@ -441,3 +443,4 @@ export async function submitContactInquiry(
     submitted: true,
   };
 }
+

@@ -1,4 +1,4 @@
-export const jobs = [
+﻿export const jobs = [
   {
     id: "registered-nurse-rn",
     title: "Registered Nurse (RN)",
@@ -96,3 +96,4 @@ export const jobs = [
 export function getJobById(id) {
   return jobs.find((job) => job.id === id) ?? null;
 }
+

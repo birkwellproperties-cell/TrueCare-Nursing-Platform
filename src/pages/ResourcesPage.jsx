@@ -1,4 +1,4 @@
-import { ExternalLink, FileText } from "lucide-react";
+﻿import { ExternalLink, FileText } from "lucide-react";
 
 import SectionHeading from "../components/SectionHeading";
 
@@ -40,3 +40,4 @@ export default function ResourcesPage() {
     </>
   );
 }
+

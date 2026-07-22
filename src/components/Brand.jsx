@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 
 function TrueCareMark({ compact = false }) {
   return (
@@ -27,3 +27,4 @@ export default function Brand({ compact = false }) {
     </Link>
   );
 }
+

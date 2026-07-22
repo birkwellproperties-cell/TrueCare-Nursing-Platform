@@ -1,4 +1,4 @@
-import { ArrowLeft, CheckCircle2, Clock3, MapPin } from "lucide-react";
+﻿import { ArrowLeft, CheckCircle2, Clock3, MapPin } from "lucide-react";
 import { useEffect, useState } from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { getPublishedJob } from "../services/publicWebsiteService";
@@ -18,7 +18,7 @@ export default function JobDetailPage() {
     return () => { active = false; };
   }, [jobId]);
 
-  if (loading) return <section className="section"><div className="container empty-state"><h2>Loading position…</h2></div></section>;
+  if (loading) return <section className="section"><div className="container empty-state"><h2>Loading positionâ€¦</h2></div></section>;
   if (error) return <section className="section"><div className="container"><p className="form-error">{error}</p></div></section>;
   if (!job) return <Navigate to="/jobs" replace />;
 
@@ -53,3 +53,4 @@ export default function JobDetailPage() {
     </>
   );
 }
+

@@ -1,0 +1,98 @@
+export const jobs = [
+  {
+    id: "registered-nurse-rn",
+    title: "Registered Nurse (RN)",
+    location: "Hutchinson, KS",
+    region: "Central Kansas",
+    type: "Per Diem",
+    shift: "Flexible shifts",
+    featured: true,
+    summary: "Provide skilled nursing support across long-term care, rehabilitation, assisted-living, and other healthcare settings.",
+    description: "TrueCare Nursing Services is building its network of dependable Registered Nurses for flexible assignments across Central Kansas. Assignments vary by facility, shift, and patient-care need.",
+    responsibilities: [
+      "Deliver safe, compassionate nursing care within the assigned scope of practice.",
+      "Complete timely documentation and communicate changes in patient or resident condition.",
+      "Administer medications and treatments according to facility policy and provider orders.",
+      "Collaborate with facility leadership and interdisciplinary care teams.",
+    ],
+    requirements: [
+      "Active Kansas RN license in good standing.",
+      "Current CPR or BLS certification where required.",
+      "Ability to satisfy facility credentialing and background requirements.",
+      "Reliable transportation and dependable attendance.",
+    ],
+  },
+  {
+    id: "licensed-practical-nurse-lpn",
+    title: "Licensed Practical Nurse (LPN/LVN)",
+    location: "Hutchinson, KS",
+    region: "Central Kansas",
+    type: "Contract / Per Diem",
+    shift: "Day, evening, and night",
+    featured: true,
+    summary: "Support medication administration, treatments, documentation, and coordinated resident care.",
+    description: "TrueCare is seeking Licensed Practical Nurses for contract and per-diem opportunities with healthcare facilities across Central Kansas.",
+    responsibilities: [
+      "Provide nursing care consistent with the assigned plan of care.",
+      "Administer medications and treatments within scope and facility policy.",
+      "Observe, document, and report changes in condition.",
+      "Support CNAs and collaborate with RNs and facility supervisors.",
+    ],
+    requirements: [
+      "Active Kansas LPN or multistate license in good standing.",
+      "Current CPR or BLS certification where required.",
+      "Successful completion of credentialing and screening requirements.",
+      "Strong communication and documentation skills.",
+    ],
+  },
+  {
+    id: "certified-nurse-aide-cna",
+    title: "Certified Nurse Aide (CNA)",
+    location: "Hutchinson, KS",
+    region: "Central Kansas",
+    type: "Flexible / Per Diem",
+    shift: "All shifts",
+    featured: true,
+    summary: "Provide essential direct care and daily-living support under licensed nursing supervision.",
+    description: "TrueCare Nursing Services is accepting applications from Certified Nurse Aides interested in flexible assignments and dependable staffing support.",
+    responsibilities: [
+      "Assist residents or patients with activities of daily living.",
+      "Measure and record vital signs and report concerns promptly.",
+      "Support mobility, comfort, hygiene, nutrition, and safety needs.",
+      "Maintain respectful communication with residents, families, and care teams.",
+    ],
+    requirements: [
+      "Active Kansas CNA certification in good standing.",
+      "Ability to complete facility screening and onboarding requirements.",
+      "Reliable attendance and professional communication.",
+      "Ability to perform the physical duties of the assigned role.",
+    ],
+  },
+  {
+    id: "certified-medication-aide-cma",
+    title: "Certified Medication Aide (CMA)",
+    location: "Hutchinson, KS",
+    region: "Central Kansas",
+    type: "Per Diem",
+    shift: "Flexible shifts",
+    featured: false,
+    summary: "Support safe medication assistance and direct care in qualified healthcare settings.",
+    description: "TrueCare is expanding its network of Certified Medication Aides for flexible assignments in Central Kansas.",
+    responsibilities: [
+      "Assist with medication administration within certification and facility policy.",
+      "Document medication services accurately and promptly.",
+      "Observe and report changes or medication-related concerns.",
+      "Provide direct-care support as assigned.",
+    ],
+    requirements: [
+      "Active Kansas CMA certification in good standing.",
+      "Active CNA certification when required by the assignment.",
+      "Completion of background and credential verification.",
+      "Strong attention to detail and dependable attendance.",
+    ],
+  },
+];
+
+export function getJobById(id) {
+  return jobs.find((job) => job.id === id) ?? null;
+}

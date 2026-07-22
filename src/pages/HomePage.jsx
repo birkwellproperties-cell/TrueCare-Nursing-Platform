@@ -1,4 +1,4 @@
-﻿import {
+import {
   ArrowRight,
   BadgeCheck,
   CalendarCheck,
@@ -76,7 +76,7 @@ export default function HomePage() {
           <div className="hero__visual" aria-label="TrueCare healthcare staffing">
             <div className="hero__cross" />
             <div className="hero__portrait-card">
-              <div className="portrait-placeholder">
+              <div className="hero__clinical-message">
                 <Stethoscope size={70} />
                 <strong>Care starts with the right team.</strong>
               </div>

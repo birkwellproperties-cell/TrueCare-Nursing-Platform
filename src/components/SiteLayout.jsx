@@ -23,6 +23,7 @@ import {
 } from "../config/site";
 
 import Brand from "./Brand";
+import RouteSeo from "./RouteSeo";
 
 const links = [
   ["Find Jobs", "/jobs"],
@@ -43,6 +44,7 @@ export default function SiteLayout() {
 
   return (
     <div className="site-shell">
+      <RouteSeo />
       <div className="topbar">
         <div className="container topbar__inner">
           <span className="topbar__status">
@@ -189,7 +191,7 @@ export default function SiteLayout() {
 
         <div className="container footer__bottom">
           <span>
-            © {new Date().getFullYear()} {siteConfig.legalName}.
+            &copy; {new Date().getFullYear()} {siteConfig.legalName}.
             All rights reserved.
           </span>
 

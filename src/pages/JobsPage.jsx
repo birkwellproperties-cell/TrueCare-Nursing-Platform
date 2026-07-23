@@ -4,9 +4,7 @@ import {
   BriefcaseBusiness,
   CheckCircle2,
   Clock3,
-  HeartHandshake,
-  MapPin,
-  Search,
+  HeartHandshake,  Search,
   Sparkles,
   Stethoscope,
   Users,
@@ -31,8 +29,8 @@ import {
 
 function formatEmploymentType(value) {
   return String(value ?? "")
-    .replace(/\s*\/\s*/g, " • ")
-    .replace(/\bFlexible\s*•\s*/i, "")
+    .replace(/\s*\/\s*/g, " ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ ")
+    .replace(/\bFlexible\s*ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢\s*/i, "")
     .trim();
 }
 
@@ -294,18 +292,6 @@ export default function JobsPage() {
                   </div>
                 </article>
 
-                <article>
-                  <span>
-                    <MapPin size={21} />
-                  </span>
-
-                  <div>
-                    <strong>Kansas opportunities</strong>
-                    <small>
-                      Roles across healthcare and care communities
-                    </small>
-                  </div>
-                </article>
               </div>
             </div>
 
@@ -522,12 +508,7 @@ export default function JobsPage() {
                     </div>
 
                     <div className="job-meta">
-                      {job.location && (
-                        <span>
-                          <MapPin size={16} />
-                          {job.location}
-                        </span>
-                      )}
+                      
 
                       {job.type && (
                         <span>

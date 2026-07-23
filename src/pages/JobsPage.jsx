@@ -29,8 +29,8 @@ import {
 
 function formatEmploymentType(value) {
   return String(value ?? "")
-    .replace(/\s*\/\s*/g, " ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢ ")
-    .replace(/\bFlexible\s*ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¢\s*/i, "")
+    .replace(/\s*\/\s*/g, " | ")
+    .replace(/\bFlexible\s*\|\s*/i, "")
     .trim();
 }
 

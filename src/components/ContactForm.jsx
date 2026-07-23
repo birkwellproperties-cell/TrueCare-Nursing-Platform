@@ -1,4 +1,4 @@
-﻿import { useState } from "react";
+import { useState } from "react";
 import {
   submitContactInquiry,
   submitFacilityRequest,
@@ -108,7 +108,7 @@ export default function ContactForm({ type = "general" }) {
       {error && <p className="form-error" role="alert">{error}</p>}
       <button className="button button--primary" type="submit" disabled={submitting}>
         {submitting
-          ? "Submittingâ€¦"
+          ? "Submitting..."
           : type === "facility"
             ? "Submit staffing request"
             : "Send message"}

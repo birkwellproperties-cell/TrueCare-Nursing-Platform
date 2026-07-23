@@ -1,4 +1,4 @@
-﻿import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 import ContactForm from "../components/ContactForm";
 import SectionHeading from "../components/SectionHeading";
@@ -10,7 +10,7 @@ export default function ContactPage() {
       <section className="page-hero">
         <div className="container">
           <span className="eyebrow eyebrow--light">Contact TrueCare</span>
-          <h1>Letâ€™s talk about how we can help.</h1>
+          <h1>Let's talk about how we can help.</h1>
           <p>Reach our team for staffing, employment, resource, or general questions.</p>
         </div>
       </section>
